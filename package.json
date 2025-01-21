@@ -1,9 +1,9 @@
 {
   "name": "todoapi_node",
   "version": "1.0.0",
-  "main": "nodemon index.js",
+  "main": "nodemon app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "keywords": [
     "node"

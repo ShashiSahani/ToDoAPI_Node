@@ -1,0 +1,52 @@
+[
+    {
+      "name": "iPhone 14",
+      "price": 999.99,
+      "featured": true,
+      "rating": 4.8,
+      "company": "apple"
+    },
+    {
+      "name": "Samsung Galaxy S22",
+      "price": 849.99,
+      "featured": false,
+      "rating": 4.7,
+      "company": "samsung"
+    },
+    {
+      "name": "Dell XPS 13",
+      "price": 1299.99,
+      "featured": true,
+      "rating": 4.9,
+      "company": "dell"
+    },
+    {
+      "name": "Asus ROG Laptop",
+      "price": 1499.99,
+      "featured": true,
+      "rating": 4.8,
+      "company": "asus"
+    },
+    {
+      "name": "Lenovo ThinkPad",
+      "price": 1099.99,
+      "featured": false,
+      "rating": 4.6,
+      "company": "lenovo"
+    },
+    {
+      "name": "Redmi Note 12",
+      "price": 299.99,
+      "featured": false,
+      "rating": 4.5,
+      "company": "mi"
+    },
+    {
+      "name": "MacBook Pro",
+      "price": 1999.99,
+      "featured": true,
+      "rating": 4.9,
+      "company": "apple"
+    }
+  ]
+  
