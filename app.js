@@ -14,7 +14,8 @@ if (!dbUrl) {
   console.error("Error: Missing DB URL environment variable.");
   process.exit(1);
 }
-
+console.log('Environment:', process.env.NODE_ENV);
+console.log(`Running in ${process.env.NODE_ENV} mode.`);
 app.use(cors()); 
 app.use(bodyParser.json());
 
