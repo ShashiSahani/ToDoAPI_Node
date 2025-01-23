@@ -1,0 +1,23 @@
+[
+    { "title": "Learn MongoDB", "completed": false, "active": true },
+    { "title": "Write blog post on Mongoose", "completed": true, "active": true },
+    { "title": "Set up a new project", "completed": false, "active": false },
+    { "title": "Fix UI bugs in the dashboard", "completed": true, "active": true },
+    { "title": "Review PRs from the team", "completed": false, "active": false },
+    { "title": "Prepare presentation for the client", "completed": true, "active": true },
+    { "title": "Optimize API performance", "completed": false, "active": true },
+    { "title": "Update task tracking documentation", "completed": true, "active": false },
+    { "title": "Learn advanced JavaScript topics", "completed": false, "active": true },
+    { "title": "Plan sprint for next month", "completed": true, "active": false },
+    { "title": "Organize project folder structure", "completed": false, "active": true },
+    { "title": "Research about Docker containers", "completed": false, "active": false },
+    { "title": "Test new feature implementation", "completed": true, "active": true },
+    { "title": "Deploy application to staging", "completed": false, "active": true },
+    { "title": "Write unit tests for APIs", "completed": false, "active": false },
+    { "title": "Learn TypeScript basics", "completed": true, "active": true },
+    { "title": "Update website content", "completed": true, "active": false },
+    { "title": "Fix mobile responsiveness issues", "completed": false, "active": true },
+    { "title": "Backup production database", "completed": true, "active": true },
+    { "title": "Schedule weekly team meeting", "completed": false, "active": false }
+  ]
+  

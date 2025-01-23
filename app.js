@@ -20,7 +20,9 @@ app.get("/", (req, res) => {
   res.send("HI, I am live");
 });
 app.use("/api/products", products_routes);
-
+app.get('/ab*cd', (req, res) => {
+    res.send('ab*cd')
+  })
 app.listen(PORT, async () => {
   try {
     await connectDB(dbUrl);
