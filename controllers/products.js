@@ -22,24 +22,19 @@ const getAllProducts = async (req, res) => {
 //     }
 // };
 const getAllProductsTesting = async (req, res) => {
-  // Extract query parameters from the request
   const queryFilters = req.query;
  
 
   try {
-    // Apply filters dynamically if any query parameters are provided
     const products = await Product.find(queryFilters);
     console.log("queryFilters",products)
 
-    // If no products match, send a 404 error
     if (products.length === 0) {
       return res.status(404).send('No products found with the specified filters');
     }
 
-    // Send the filtered products back as a response
     res.status(200).json(products);
   } catch (err) {
-    // Handle any errors during the query execution
     res.status(500).send('Error fetching products');
   }
 };
