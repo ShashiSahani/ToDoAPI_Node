@@ -3,13 +3,13 @@ const connectDB = require("./db/connect");
 const express = require("express");
 const bodyParser = require("body-parser");
 const tasksRoutes = require("./routes/task");
-const PORT = 3111;
+const PORT =process.env.PORT || 5489;
 
 const products_routes = require("./routes/products");
 const app = express();
 
 app.use(bodyParser.json());
-const dbUrl = process.env.DB_URL ||`mongodb+srv://shashisahani2025:root@shopingbag.3ruox.mongodb.net/`
+const dbUrl = process.env.DB_URL 
 ;
 if (!dbUrl) {
   console.error("Error: Missing DB url env variable ");
